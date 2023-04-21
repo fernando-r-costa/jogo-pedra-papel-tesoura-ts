@@ -1,0 +1,101 @@
+:root {
+  --dark-blue: hsl(233, 26%, 24%);
+  --lime-green: hsl(136, 65%, 51%);
+  --bright-cyan: hsl(192, 70%, 51%);
+  --grayish-blue: hsl(233, 8%, 62%);
+  --light-grayish-blue: hsl(220, 16%, 96%);
+  --very-light-gray: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+}
+
+html {
+  font-size: 1vw;
+  font-family: 'Varela Round', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 48vw;
+  font-family: 'Unbounded', cursive;
+  font-size: 17px;
+  color: #ffae00;
+  text-shadow: 1px 1px 1px rgb(236, 92, 8), 2px 2px 1px rgb(5, 5, 5);
+  line-height: 1.5;
+  background-size: 100%;
+  background-image: url(../imagens/background.jpg);
+}
+
+header {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 10px;
+}
+
+#instrucoes,
+#jogo {
+  width: 60%;
+  padding: 0px 20px;
+}
+
+#input-nome {
+  width: 30%;
+  margin: 10px;
+  padding: 3px 5px;
+  background: rgb(226, 194, 134);
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#button-nome,
+#button-revanche,
+#button-desistir {
+  width: 130px;
+  margin: 10px;
+  padding: 5px 0;
+  background: rgb(2, 134, 53);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+fieldset {
+  display: inline-block;
+  text-align: center;
+  width: 40%;
+  vertical-align: top;
+  padding: 10px 10px;
+  margin: 0 0 0 8%;
+}
+
+#objEscolhido li {
+  display: inline-block;
+  width: 18%;
+  margin: 3% 0 0 3%;
+}
+
+#p-placar {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.attribution {
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  text-align: right;
+  padding: 1rem 2rem 0 0;
+}
+
+.attribution img {
+  width: 2%;
+}

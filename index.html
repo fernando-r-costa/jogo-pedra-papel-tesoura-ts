@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/style/reset.css">
+  <link rel="stylesheet" href="./assets/style/style.css">
+
+  <link rel="icon" type="image/gif" sizes="32x32" href="./assets/imagens/FRC.gif">
+
+  <title>Jogo Pedra, Papel ou Tesoura</title>
+</head>
+
+<body>
+  <header class="titulo">
+    <h1>Jogo pedra, papel ou tesoura</h1><br>
+
+  </header>
+
+  <main>
+    <div id="instrucoes">
+      <h2 id="bemvindo">Seja bem vindo, Jogador!</h2>
+      <li>Você deverá escolher a opção de jogo: melhor de 3 partidas ou melhor de 5 partidas.</li>
+      <li>Você deverá escolher o objeto: Pedra, Papel ou Tesoura.</li>
+      <li>Após escolher a opção você será informado se ganhou ou perdeu a partida e depois o jogo.</li>
+      <li>Ao final, será oferecido uma revanche,</li>
+      <li>Ou poderá desistir.</li><br>
+      <label>Informe o seu nome: </label>
+      <input type="text" id="input-nome" required placeholder="NOME DO JOGADOR">
+      <input type="button" id="button-nome" value="INICIAR"><br>
+    </div>
+
+    <div id="jogo">
+      <p id="p-pronto">Nome Jogador</p><br>
+
+      <fieldset>
+        <legend>Escolha a quantidade de partidas:</legend>
+        <label for="radio-3partidas"><input type="radio" name="partidas" value="3" id="radio-3partidas">3
+          partidas</label>
+
+        <label for="radio-5partidas"><input type="radio" name="partidas" value="5" id="radio-5partidas">5
+          partidas</label>
+      </fieldset><br>
+
+      <ul id="objEscolhido">
+        <li>
+          <input type="image" id="button-pedra" src="./assets/imagens/pedra.png">
+        </li>
+        <li>
+          <input type="image" id="button-papel" src="./assets/imagens/papel.png">
+        </li>
+        <li>
+          <input type="image" id="button-tesoura" src="./assets/imagens/tesoura.png">
+        </li>
+      </ul>
+
+      <fieldset>
+        <p id="p-painel">Vamos lá!</p><br>
+        <p id="p-placar">Placar</p>
+        <p id="p-partidas">Partidas: </p>
+        <p id="p-pontosJogador">Pontos do Jogador: </p>
+        <p id="p-pontosComputador">Pontos do Computador: </p>
+        <input type="button" id="button-revanche" value="REVANCHE">
+        <input type="button" id="button-desistir" value="DESISTIR">
+
+      </fieldset>
+
+    </div>
+
+    <div id="fim">
+      <br>
+      <p id="p-final"></p><br>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="attribution">Coded by <a href="https://www.linkedin.com/in/fernando-r-costa/"><img
+          src="./assets/imagens/FRC.gif"></a>
+  </footer>
+
+</body>
+
+<!-- <script src="main.js"></script> -->
+
+</html>
