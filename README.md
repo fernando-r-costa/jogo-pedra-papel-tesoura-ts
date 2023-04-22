@@ -27,13 +27,13 @@ Reconstruir o meu jogo em Typescript tentando manter o layout, melhorando a joga
 
 ### Links
 
-- Site URL: []()
+- Site URL: [Jogo Pedra, Papel ou Tesoura](https://jogo-pedra-papel-tesoura-ts.vercel.app/)
 
 ## Meu processo
 
-- [ ] Desktop-design
-- [ ] Interação
+- [x] Desktop-design
 - [ ] Mobile-design
+- [ ] Interação
 
 ## Autor
 

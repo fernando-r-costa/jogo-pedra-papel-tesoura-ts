@@ -25,58 +25,70 @@
   </header>
 
   <main>
-    <div id="instrucoes">
-      <h2 id="bemvindo">Seja bem vindo, Jogador!</h2>
-      <li>Você deverá escolher a opção de jogo: melhor de 3 partidas ou melhor de 5 partidas.</li>
-      <li>Você deverá escolher o objeto: Pedra, Papel ou Tesoura.</li>
-      <li>Após escolher a opção você será informado se ganhou ou perdeu a partida e depois o jogo.</li>
-      <li>Ao final, será oferecido uma revanche,</li>
-      <li>Ou poderá desistir.</li><br>
-      <label>Informe o seu nome: </label>
-      <input type="text" id="input-nome" required placeholder="NOME DO JOGADOR">
-      <input type="button" id="button-nome" value="INICIAR"><br>
+    <div class="tela-bem-vindo">
+      <div class="instrucoes">
+        <h2 id="bemvindo">Seja bem vindo, Jogador!</h2>
+        <li>Você deverá escolher a opção de jogo: melhor de 3 partidas ou melhor de 5 partidas.</li>
+        <li>Você deverá escolher o objeto: Pedra, Papel ou Tesoura.</li>
+        <li>Após escolher a opção você será informado se ganhou ou perdeu a partida e depois o jogo.</li>
+        <li>Ao final, será oferecido uma revanche,</li>
+        <li>Ou poderá desistir.</li>
+      </div>
+      <div class="input-nome-jogador">
+        <label>Informe o seu nome: </label>
+        <input type="text" id="input-nome" required placeholder="NOME DO JOGADOR">
+        <input type="button" id="button-nome" value="INICIAR"><br>
+      </div>
     </div>
 
-    <div id="jogo">
-      <p id="p-pronto">Nome Jogador</p><br>
-
-      <fieldset>
-        <legend>Escolha a quantidade de partidas:</legend>
-        <label for="radio-3partidas"><input type="radio" name="partidas" value="3" id="radio-3partidas">3
-          partidas</label>
-
-        <label for="radio-5partidas"><input type="radio" name="partidas" value="5" id="radio-5partidas">5
-          partidas</label>
-      </fieldset><br>
-
-      <ul id="objEscolhido">
-        <li>
-          <input type="image" id="button-pedra" src="./assets/imagens/pedra.png">
-        </li>
-        <li>
-          <input type="image" id="button-papel" src="./assets/imagens/papel.png">
-        </li>
-        <li>
-          <input type="image" id="button-tesoura" src="./assets/imagens/tesoura.png">
-        </li>
-      </ul>
-
-      <fieldset>
-        <p id="p-painel">Vamos lá!</p><br>
-        <p id="p-placar">Placar</p>
-        <p id="p-partidas">Partidas: </p>
-        <p id="p-pontosJogador">Pontos do Jogador: </p>
-        <p id="p-pontosComputador">Pontos do Computador: </p>
+    <div class="tela-jogo">
+      <div class="boa-sorte">
+        Boa sorte, jogador!
+      </div>
+      <div class="escolha-partidas">
+        <fieldset>
+          <legend>Escolha a quantidade de partidas:</legend>
+          <label for="radio-3partidas"><input type="radio" name="partidas" value="3" id="radio-3partidas">3
+            partidas</label>
+          <label for="radio-5partidas"><input type="radio" name="partidas" value="5" id="radio-5partidas">5
+            partidas</label>
+        </fieldset>
+      </div>
+      <div class="objeto-jogador">
+        <ul id="objeto-escolhido">
+          Escolha seu objeto:<br>
+          <li>
+            <input type="image" id="button-pedra" src="./assets/imagens/pedra.png">
+          </li>
+          <li>
+            <input type="image" id="button-papel" src="./assets/imagens/papel.png">
+          </li>
+          <li>
+            <input type="image" id="button-tesoura" src="./assets/imagens/tesoura.png">
+          </li>
+        </ul>
+      </div>
+      <div class="info-painel">
+        Vamos lá!
+      </div>
+      <div class="objeto-computador">
+        Escolha do computador:<br>
+        <img src="./assets/imagens/papel.png">
+      </div>
+      <div class="placar">
+        <p id="tit-placar">Placar</p>
+        <p id="info-partidas">Partidas: </p>
+        <p id="info-pontos-jogador">Pontos do Jogador: </p>
+        <p id="info-pontos-computador">Pontos do Computador: </p>
+      </div>
+      <div class="buttons">
         <input type="button" id="button-revanche" value="REVANCHE">
         <input type="button" id="button-desistir" value="DESISTIR">
-
-      </fieldset>
-
+      </div>
     </div>
 
-    <div id="fim">
-      <br>
-      <p id="p-final"></p><br>
+    <div class="tela-fim">
+      <p class="agradecimento">Fernando obrigado por jogar!<br>Até a próxima!</p>
     </div>
 
   </main>
@@ -85,7 +97,6 @@
     <div class="attribution">Coded by <a href="https://www.linkedin.com/in/fernando-r-costa/"><img
           src="./assets/imagens/FRC.gif"></a>
   </footer>
-
 </body>
 
 <!-- <script src="main.js"></script> -->
