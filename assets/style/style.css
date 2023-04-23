@@ -12,11 +12,12 @@ body {
 }
 
 header {
+  height: 15vh;
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
   font-style: italic;
-  padding: 1.5rem;
+  padding: 5vh 0 0 0;
   text-shadow: 0.2rem 0.2rem 0.5rem rgb(236, 92, 8);
 }
 
@@ -27,7 +28,7 @@ header {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   margin: 0 15rem;
-  background-color: rgba(48, 48, 48, 0.724);
+  background-color: rgba(48, 48, 48, 0.900);
   border-radius: 1rem;
 }
 
@@ -81,7 +82,7 @@ header {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   margin: 0 15rem;
-  background-color: rgba(48, 48, 48, 0.724);
+  background-color: rgba(48, 48, 48, 0.900);
   border-radius: 1rem;
 }
 
@@ -155,7 +156,7 @@ header {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   margin: 0 15rem;
-  background-color: rgba(48, 48, 48, 0.724);
+  background-color: rgba(48, 48, 48, 0.900);
   border-radius: 1rem;
 }
 

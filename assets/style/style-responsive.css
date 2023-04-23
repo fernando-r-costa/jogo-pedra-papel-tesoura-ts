@@ -1,0 +1,148 @@
+@media screen and (max-width: 720px) {
+
+    header {
+        height: 8vh;
+        font-size: 5rem;
+        padding: 5rem 0 0 0;
+    }
+
+    body {
+        background-size: auto 100vh;
+        background-position-x: -70rem;
+    }
+
+    .tela-bem-vindo {
+        grid-template-columns: 80rem;
+        grid-template-rows: 50vh 30vh;
+        margin: 0 10rem;
+    }
+
+    .instrucoes {
+        line-height: 5rem;
+        font-size: 4rem;
+        padding: 5rem 4rem;
+    }
+
+    .input-nome-jogador {
+        font-size: 4rem;
+        padding: 0 0 0 4rem;
+    }
+
+    #input-nome {
+        width: 55rem;
+        height: 6rem;
+        font-size: 3.6rem;
+        margin: 5rem 0 0 6rem;
+    }
+
+    #button-nome {
+        width: 30rem;
+        height: 6rem;
+        font-size: 3.6rem;
+        margin: 5rem 20.5rem;
+    }
+
+    .tela-jogo {
+        grid-template-columns: 80rem;
+        grid-template-rows: 5vh 10vh 20vh 10vh 15vh 13vh 7vh;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin: 0 10rem;
+    }
+
+    .boa-sorte {
+        grid-area: 1 / 1 / 2 / 2;
+        font-size: 4rem;
+    }
+
+    .escolha-partidas {
+        grid-area: 2 / 1 / 3 / 2;
+        font-size: 4rem;
+        line-height: 6rem;
+        background-color: rgba(72, 72, 73, 0.434);
+    }
+
+    .objeto-jogador {
+        grid-area: 3 / 1 / 4 / 2;
+        font-size: 4rem;
+        text-align: center;
+        padding: 3rem 0 0 0;
+    }
+
+    .objeto-jogador li {
+        padding: 4rem 16rem 0 0;
+    }
+
+    .objeto-jogador input {
+        display: inline-block;
+        width: 20rem;
+    }
+
+    .info-painel {
+        grid-area: 4 / 1 / 5 / 2;
+        font-size: 4rem;
+        padding: 4rem;
+    }
+
+    .objeto-computador {
+        grid-area: 5 / 1 / 6 / 2;
+        display: flex;
+        justify-self: center;
+        flex-direction: row;
+        padding: 4rem;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .objeto-computador img {
+        width: 20rem;
+        height: 20rem;
+        padding: 0 4rem;
+    }
+
+    .placar {
+        grid-area: 6 / 1 / 7 / 2;
+        font-size: 4rem;
+        text-align: right;
+        padding: 3rem 40rem 0 0;
+        background-color: rgba(72, 72, 73, 0.434);
+    }
+
+    .buttons {
+        grid-area: 7 / 1 / 8 / 2;
+        padding: 0 0 0 0;
+    }
+
+    #button-revanche {
+        width: 30rem;
+        height: 6rem;
+        font-size: 3.6rem;
+        margin: 2rem 0 0 7rem;
+    }
+
+    #button-desistir {
+        width: 30rem;
+        height: 6rem;
+        font-size: 3.6rem;
+        margin: 3rem 0 0 5rem;
+    }
+
+    .tela-fim {
+        grid-template-columns: 80rem;
+        grid-template-rows: 80vh;
+        margin: 0 10rem;
+    }
+
+    .agradecimento {
+        font-size: 5rem;
+        line-height: 7rem;
+    }
+
+    .attribution {
+        font-size: 2.5rem;
+      }
+      
+      .attribution img {
+        width: 5%;
+      }
+}

@@ -32,7 +32,7 @@ Reconstruir o meu jogo em Typescript tentando manter o layout, melhorando a joga
 ## Meu processo
 
 - [x] Desktop-design
-- [ ] Mobile-design
+- [x] Mobile-design
 - [ ] Interação
 
 ## Autor
