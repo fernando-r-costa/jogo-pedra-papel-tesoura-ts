@@ -117,7 +117,8 @@ header {
   grid-area: 3 / 2 / 4 / 3;
   text-align: center;
   font-size: 1.5rem;
-  padding: 2rem 0;
+  padding: 2rem 5rem;
+  line-height: 2rem;
   background-color: rgba(72, 72, 73, 0.434);
   border-radius: 2rem;
 }
