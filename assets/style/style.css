@@ -147,6 +147,7 @@ header {
 
 .buttons {
   grid-area: 4 / 3 / 5 / 4;
+  display: none;
   padding: 3rem 0 0 0;
 }
 

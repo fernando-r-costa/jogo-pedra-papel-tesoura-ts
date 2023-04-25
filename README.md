@@ -23,17 +23,25 @@ Reconstruir o meu jogo em Typescript tentando manter o layout, melhorando a joga
 
 ### Screenshot
 
-![Original](./assets/screenshots/Jogo-Pedra-Papel-Tesoura-original.png)
+![Desktop tela instruções](./assets/screenshots/screenshot-1682436320268.jpeg)
+![Desktop tela jogo](./assets/screenshots/screenshot-1682436331567.jpeg)
+![Desktop tela final](./assets/screenshots/screenshot-1682436341939.jpeg)
+![Mobile tela instruções](./assets/screenshots/screenshot-1682436244552.jpeg)
+![Mobile tela jogo](./assets/screenshots/screenshot-1682436276388.jpeg)
+![Mobile tela final](./assets/screenshots/screenshot-1682436298483.jpeg)
+![Versão 1.0](./assets/screenshots/Jogo-Pedra-Papel-Tesoura-original.png)
 
 ### Links
 
-- Site URL: [Jogo Pedra, Papel ou Tesoura](https://jogo-pedra-papel-tesoura-ts.vercel.app/)
+- Site URL: [Jogo Pedra, Papel ou Tesoura 2.0](https://jogo-pedra-papel-tesoura-ts.vercel.app/)
+- Site URL: [Jogo Pedra, Papel ou Tesoura 1.0](https://jogo-pedra-papel-tesoura-rho.vercel.app/)
+- Código da versão 1.0: [Jogo Pedra, Papel ou Tesoura 1.0](https://github.com/fernando-r-costa/JogoPedraPapelTesoura)
 
 ## Meu processo
 
 - [x] Desktop-design
 - [x] Mobile-design
-- [25%] Interação
+- [x] Interação
 
 ## Autor
 
